@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(2,0,36);
+background: linear-gradient(41deg, rgba(2,0,36,1) 0%, rgba(224,8,8,1) 0%, rgba(0,208,255,1) 100%, rgba(0,212,255,1) 100%);
+  color: #fff; /* Text color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clock-container {
+  text-align: center;
+  background-color: #242582; /* Clock container background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow for a card-like effect */
+}
+
+.time {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ffffff; /* Time color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for a subtle effect */
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #FF4081; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+  background-color: #D81B60; /* Darker color on hover */
+}
+
+.alarms-list {
+  margin-top: 30px;
+}
+
+h2 {
+  color: #a734ff; /* Alarms list heading color */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+li button {
+  background-color: #536DFE; /* Delete button background color */
+  color: #fff; /* Delete button text color */
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+li button:hover {
+  background-color: #3F51B5; /* Darker color on hover */
+}
