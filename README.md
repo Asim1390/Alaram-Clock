@@ -21,3 +21,5 @@ Delete alarm:-
 
 For each alarm give a delete button to delete the alarm
 When the user deletes an alarm make sure it “does not alerts the user”
+
+Link= https://main--clinquant-paprenjak-4661e2.netlify.app/
